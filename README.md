@@ -15,23 +15,15 @@ Built as a monorepo with `React + TypeScript` on the frontend and `Node.js + Exp
 
 ### Home Screen
 
-![Fish Scan home screen](./README-assets/home-screen.png)
+Fish Scan home screen
 
 ### Summary Section
 
-![Fish Scan summary section](./README-assets/summary-section.png)
+Fish Scan summary section
 
 ### Fish Recommendations
 
-![Fish Scan fish recommendations](./README-assets/fish-recommendations.png)
-
-## Why This Project Works Well For a Portfolio
-
-- It solves a clear user problem instead of being just a CRUD demo.
-- It combines product thinking, UI work, domain logic, API integration, and AI.
-- It uses a clean monorepo structure with shared packages.
-- It has a presentable interface, Storybook coverage, and automated tests.
-- It is easy to extend into a more advanced product.
+Fish Scan fish recommendations
 
 ## Core Features
 
@@ -91,11 +83,10 @@ packages/
 `Fish Scan` uses a two-layer decision flow:
 
 1. **Deterministic fishing analysis**
-   The backend converts weather data into a structured input for the fishing rules engine.  
+  The backend converts weather data into a structured input for the fishing rules engine.  
    The engine scores fish activity based on weather stability, pressure behavior, wind comfort, cloud cover, precipitation, and time-of-day bonuses.
-
 2. **AI explanation layer**
-   After the rule engine calculates the result, the configured AI provider produces a short explanation in the selected UI language.  
+  After the rule engine calculates the result, the configured AI provider produces a short explanation in the selected UI language.  
    The AI does not replace the score logic; it explains the already computed result.
 
 This makes the product more reliable than a pure LLM demo while still feeling readable and user-friendly.
@@ -192,5 +183,8 @@ This project demonstrates:
 
 ## Author
 
-Designed and developed by [`is-hiro`](https://github.com/is-hiro)
+Designed and developed by `[is-hiro](https://github.com/is-hiro)`
+
+# fish-scan
+
 # fish-scan
