@@ -186,5 +186,3 @@ This project demonstrates:
 Designed and developed by `[is-hiro](https://github.com/is-hiro)`
 
 # fish-scan
-
-# fish-scan
