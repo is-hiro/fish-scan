@@ -1,0 +1,25 @@
+{
+  "name": "fish-scan",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "concurrently -n web,api -c magenta,cyan \"npm run dev -w @fish-scan/web\" \"npm run dev -w @fish-scan/api\"",
+    "dev:web": "npm run dev -w @fish-scan/web",
+    "dev:api": "npm run dev -w @fish-scan/api",
+    "build": "npm run build -w @fish-scan/shared && npm run build -w @fish-scan/fishing-rules && npm run build -w @fish-scan/api && npm run build -w @fish-scan/web",
+    "lint": "npm run lint -ws --if-present",
+    "test": "npm run test -w @fish-scan/fishing-rules && npm run test -w @fish-scan/api",
+    "typecheck": "npm run typecheck -ws --if-present",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1",
+    "prettier": "^3.6.2"
+  }
+}

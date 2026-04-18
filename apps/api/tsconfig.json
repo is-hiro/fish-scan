@@ -1,0 +1,19 @@
+{
+  "extends": "../../packages/config/tsconfig/base.json",
+  "compilerOptions": {
+    "baseUrl": "../../",
+    "paths": {
+      "@fish-scan/shared": ["packages/shared/src/index.ts"],
+      "@fish-scan/fishing-rules": ["packages/fishing-rules/src/index.ts"]
+    },
+    "rootDir": "../../",
+    "outDir": "dist",
+    "types": ["node"]
+  },
+  "include": [
+    "src/**/*.ts",
+    "tests/**/*.ts",
+    "../../packages/shared/src/**/*.ts",
+    "../../packages/fishing-rules/src/**/*.ts"
+  ]
+}
