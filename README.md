@@ -11,20 +11,6 @@ The app combines a rule-based fishing engine with AI-generated explanations, hel
 
 Built as a monorepo with `React + TypeScript` on the frontend and `Node.js + Express + TypeScript` on the backend.
 
-## Product Preview
-
-### Home Screen
-
-Fish Scan home screen
-
-### Summary Section
-
-Fish Scan summary section
-
-### Fish Recommendations
-
-Fish Scan fish recommendations
-
 ## Core Features
 
 - Search by city name or coordinates.
